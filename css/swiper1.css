@@ -1,0 +1,49 @@
+@charset "utf-8";
+.shouye{
+     height: 100%;
+     width: 100%;
+	background: #f5f5f5;
+}
+.shouye2{
+     height: 100%;
+     width: 100%;
+	background: url(../img/bg-gg.png);
+	background-size: 100%;
+}
+.shouye3{
+     height: 100%;
+     width: 100%;
+	/*background: url(../img/bg-gg.png);*/
+	/*background-size: 100%;*/
+}
+.font_1{
+	font-family:'汉真广标';
+	font-size: 24px;
+color: #CC0000;
+}
+.font_2{
+	font-family:'汉真广标';
+	font-size: 12px;
+	color: #4c4c4c;
+}
+.font_3{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #4c4c4c;
+	letter-spacing: 3px;
+}
+.margintop1{
+	margin-top: 140px;
+}
+.margintop2{
+	margin-top: 28px;
+}
+.margintop3{
+	margin-top: 60px;
+}
+.margintop4{
+	margin-top: 15px;
+}
+.margintop5{
+	margin-top: 80px;
+}

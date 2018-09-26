@@ -1,0 +1,53 @@
+@charset "utf-8";
+body,
+html {
+	font-family: "微软雅黑";
+}
+
+a {
+	color: #000000;
+}
+
+
+/*头部*/
+
+.head {
+	padding: 20px 0;
+}
+.fonthead {
+	font-size: 20px;
+}
+
+
+/*选项卡*/
+
+.am-tabs-bd {
+	border: 0;
+}
+
+.control .am-active a {
+	border: 0!important;
+	border-bottom: 2px solid #cc0000!important;
+	color: #CC0000!important;
+}
+
+.control .am-thumbnail {
+	border: 0!important;
+}
+
+.centerxian {
+	height: 1px;
+	width: 95%;
+	background-color: #ededed;
+	margin-top: 17px;
+}
+
+.fonttime {
+	font-size: 14px;
+	color: #555555;
+}
+
+.bottom {
+	padding: 20px 0;
+	background-color: #ededed;
+}

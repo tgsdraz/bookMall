@@ -1,0 +1,211 @@
+@charset "utf-8";
+.text-28 {
+	font-size: 2.8rem;
+}
+
+.text-26 {
+	font-size: 2.6rem;
+}
+
+.text-24 {
+	font-size: 2.4rem;
+}
+
+.text-20 {
+	font-size: 2rem;
+}
+
+.text-18 {
+	font-size: 1.8rem;
+}
+
+.text-14 {
+	font-size: 1.4rem;
+}
+
+.text-13 {
+	font-size: 1.3rem;
+}
+
+.text-12 {
+	font-size: 1.2rem;
+}
+
+.text-16 {
+	font-size: 1.6rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.red {
+	color: #cc0000;
+}
+
+.huise {
+	color: #666666;
+}
+
+.color-9 {
+	color: #999999;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: #333;
+}
+
+a:focus,
+a:hover {
+	color: #333;
+}
+
+body {
+	background-color: #ededed;
+}
+
+.bg-width {
+	background-color: #FFFFFF;
+}
+
+.tt {
+	padding-top: 0.4rem;
+}
+
+.baozhang .am-icon-circle {
+	color: #666666;
+	font-size: 0.1rem;
+}
+
+.baozhang {
+	color: #666;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	background-color: #ededed;
+}
+
+.yuan-pdd {
+	padding-left: 1.4rem;
+}
+
+.yuan-1 {
+	line-height: 95px;
+}
+
+.yuan-2 {
+	display: none;
+}
+
+.am-icon-dot-circle-o {
+	color: #cc0000;
+}
+
+.book-name {
+	margin-bottom: 0.5rem;
+}
+
+.number {
+	line-height: 43px;
+}
+
+.line1 {
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.shuliang input {
+	border: 0;
+	width: 4rem;
+}
+
+.shuliang .bord-1 {
+	display: inline-block;
+	padding: 0rem 1rem;
+	border: 1px solid #868686;
+	border-radius: 3px;
+}
+
+.shuliang .bord-2 {
+	display: inline-block;
+	padding: 0rem 0.7rem;
+	border: 1px solid #868686;
+	border-radius: 3px;
+}
+
+.del-pdd {
+	padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.lh {
+	line-height: 45px;
+}
+
+.dingwei {
+	position: fixed;
+	left: 0;
+	bottom: 72px;
+}
+
+.dibu-nav {
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+	height: 6rem;
+	bottom: 0;
+	left: 0;
+}
+
+.nav-footer p {
+	margin-top: 0rem;
+	margin-bottom: 0;
+}
+
+.nav-footer {
+	margin-top: 0.3rem;
+}
+
+.line4 {
+	border: 1px solid #ededed;
+}
+
+
+/*弹窗*/
+
+.tanchuang-box {
+	display: none;
+}
+
+.tanchuang {
+	position: absolute;
+	top: 260%;
+	left: 34%;
+}
+
+
+/*下单*/
+
+.top-2 {
+	display: none;
+}
+
+.count {
+	display: none;
+}
+
+.xiadan {
+	background-color: #999999;
+	color: #cccccc;
+}
+
+.jiage {
+	color: #cccccc;
+}
+
+.shanchu {
+	background-color: #999999;
+	color: #cccccc;
+	display: none;
+}

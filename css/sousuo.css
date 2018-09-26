@@ -1,0 +1,84 @@
+@charset "utf-8";
+.text-28 {
+	font-size: 2.8rem;
+}
+
+.text-26 {
+	font-size: 2.6rem;
+}
+
+.text-24 {
+	font-size: 2.4rem;
+}
+
+.text-20 {
+	font-size: 2rem;
+}
+
+.text-18 {
+	font-size: 1.8rem;
+}
+
+.text-14 {
+	font-size: 1.4rem;
+}
+
+.text-16 {
+	font-size: 1.6rem;
+}
+
+.relative {
+	position: relative;
+}
+
+a {
+	color: #333;
+}
+
+a:focus,
+a:hover {
+	color: #333;
+}
+
+ul {
+	list-style: none;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin: 0;
+}
+
+li {
+	margin-top: 1rem;
+	margin-bottom: 0rem;
+	padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+	border: 1px solid #666666;
+	margin-right: 0.5rem;
+	float: left;
+	border-radius: 5px;
+}
+
+.sousuo .am-form-field {
+	border: 0;
+	border-radius: 10px;
+	background-color: #ededed;
+}
+
+.sousuo .am-u-sm-3 a {
+	line-height: 3.5rem;
+}
+
+body {
+	background-color: #ededed;
+}
+
+.bg {
+	background-color: #FFFFFF;
+}
+
+.bg img {
+	width: 1.6rem;
+	height: 1.6rem;
+	top: 25%;
+	left: 28%;
+	position: absolute;
+}

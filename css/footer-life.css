@@ -1,0 +1,110 @@
+@charset "utf-8";
+.text-28 {
+	font-size: 2.8rem;
+}
+
+.text-26 {
+	font-size: 2.6rem;
+}
+
+.text-24 {
+	font-size: 2.4rem;
+}
+
+.text-20 {
+	font-size: 2rem;
+}
+
+.text-18 {
+	font-size: 1.8rem;
+}
+
+.text-14 {
+	font-size: 1.4rem;
+}
+
+.text-12 {
+	font-size: 1.2rem;
+}
+
+.text-13 {
+	font-size: 1.3rem;
+}
+
+.text-12 {
+	font-size: 1.2rem;
+}
+
+.text-16 {
+	font-size: 1.6rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.red {
+	color: #cc0000;
+}
+
+.huise {
+	color: #666666;
+}
+
+.color-9 {
+	color: #999999;
+}
+
+a {
+	font-size: 1.6rem;
+	color: #333;
+}
+
+a:focus,
+a:hover {
+	color: #333;
+}
+
+.line1 {
+	border-bottom: 1px solid #ededed;
+}
+
+.line2 {
+	border-bottom: 10px solid #ededed;
+}
+
+.line3 {
+	border-bottom: 1px solid #999999;
+	margin: 1.2rem 0rem;
+}
+
+.line4 {
+	border-bottom: 1px solid #ededed;
+}
+
+.am-padding-horizontal-pdd {
+	padding: 0 8rem;
+	text-indent: 1rem;
+}
+
+.dibu-nav {
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+	height: 6rem;
+	bottom: 0;
+	left: 0;
+}
+
+.nav-footer p {
+	margin-top: 0rem;
+	margin-bottom: 0;
+}
+
+.nav-footer {
+	margin-top: 0.3rem;
+}
+
+.kongbai {
+	margin-bottom: 7rem;
+}

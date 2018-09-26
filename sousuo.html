@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>搜索</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/sousuo.css" />
+	</head>
+
+	<body>
+		<div class="bg">
+			<div class="am-g am-text-center am-padding-vertical-sm text-20 sousuo">
+				<div class="am-u-sm-9" id="biaodan">
+					<input class="am-form-field am-input-lg am-round am-text-center text-20" type="text" placeholder="搜索好书">
+					<div class="">
+						<img src="img/sousuo_03.png" id="img" />
+					</div>
+				</div>
+				<div class="am-u-sm-3">
+					<a href="javascript:history.go(-1);">取消</a>
+				</div>
+			</div>
+			<div class="am-g text-20">
+				<div class="am-u-sm-12">热门搜索</div>
+			</div>
+		</div>
+
+		<div class="text-18">
+			<ul class="am-cf">
+				<li>
+					<a href="#">从你的全世界路过</a>
+				</li>
+				<li>
+					<a href="#">白夜行</a>
+				</li>
+				<li>
+					<a href="#">海贼王漫画</a>
+				</li>
+				<li>
+					<a href="#">诺贝尔文学奖</a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#biaodan').click(function() {
+					$('#img').css('display', 'none')
+				})
+
+//				function go() {
+//					window.history.go(-1);
+//				}
+//				setTimeout('go()', 1000)
+			})
+		</script>
+	</body>
+
+</html>

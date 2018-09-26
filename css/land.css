@@ -1,0 +1,96 @@
+@charset "utf-8";
+body {
+	background: url(../img/land-bg2.jpg) no-repeat;
+	background-size: 100%;
+}
+
+input {
+	letter-spacing: 0.2rem;
+}
+
+.logo-top {
+	margin-top: 6rem;
+}
+
+.land-top {
+	font-size: 2.1rem;
+}
+
+.am-form input {
+	display: inline-block;
+	-webkit-transform: scaleX(0.8);
+	-moz-transform: scaleX(0.8);
+	-ms-transform: scaleX(0.8);
+	-o-transform: scaleX(0.8);
+	transform: scaleX(0.8);
+}
+
+.am-form input[type=text],
+.am-form input[type=password] {
+	line-height: 2rem;
+}
+
+.am-btn {
+	color: #FFFFFF;
+	width: 4rem;
+	height: 4rem;
+	padding: 0;
+	border-radius: 100%;
+}
+
+
+/*注册登录验证码*/
+
+.yanzhengma {
+	margin-top: 7rem;
+}
+
+.arrow-right-red img {
+	margin-top: 0.5rem;
+	display: inline-block;
+}
+
+.arrow-right-red {
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 100%;
+	background-color: #FFFFFF;
+}
+
+.xiabu {
+	font-size: 1.4rem;
+}
+
+
+/*手机注册页面*/
+
+.tel-left {
+	color: #777777;
+	font-size: 1.3rem;
+	margin-left: 4rem;
+}
+
+a:focus,
+a:hover {
+	color: #ff6600;
+}
+
+.dl {
+	color: #555555;
+}
+
+.land-way {
+	font-size: 1.2rem;
+	color: #666666;
+}
+
+.land-way .am-text-right,
+.land-way .am-text-left {
+	margin-top: 1.6rem;
+	border-bottom: 1px solid #bcbfad;
+}
+
+.footer-way i {
+	font-size: 2.5rem;
+}

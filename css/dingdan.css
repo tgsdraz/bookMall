@@ -1,0 +1,113 @@
+@charset "utf-8";
+.text-28 {
+	font-size: 2.8rem;
+}
+
+.text-26 {
+	font-size: 2.6rem;
+}
+
+.text-24 {
+	font-size: 2.4rem;
+}
+
+.text-20 {
+	font-size: 2rem;
+}
+
+.text-18 {
+	font-size: 1.8rem;
+}
+
+.text-14 {
+	font-size: 1.4rem;
+}
+
+.text-13 {
+	font-size: 1.3rem;
+}
+
+.text-12 {
+	font-size: 1.2rem;
+}
+
+.text-16 {
+	font-size: 1.6rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.red {
+	color: #cc0000;
+}
+
+.huise {
+	color: #666666;
+}
+
+.color-5 {
+	color: #555555;
+}
+
+a {
+	font-size: 1.6rem;
+	color: #666666;
+}
+
+a:focus,
+a:hover {
+	color: #333;
+}
+
+p {
+	margin: 0;
+}
+
+body {
+	background-color: #ededed;
+}
+
+.bg-width {
+	background-color: #FFFFFF;
+}
+
+
+/*我的订单*/
+
+.am-nav-tabs>li>a {
+	border: 0;
+}
+
+.am-nav-tabs>li.am-active>a,
+.am-nav-tabs>li.am-active>a:focus,
+.am-nav-tabs>li.am-active>a:hover {
+	border: 0;
+}
+
+.am-nav-tabs {
+	border: 0;
+}
+
+.am-tabs-bd {
+	border: 0;
+}
+
+.am-nav-tabs>li>a {
+	margin-right: 0;
+}
+
+.am-nav>li>a {
+	padding: 0.4em 0.8em;
+}
+
+.tanchuang-box {
+	/*display: none;*/
+}
+
+.tanchuang {
+	position: absolute;
+	top: 260%;
+	left: 34%;
+}

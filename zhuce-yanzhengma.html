@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册登录验证码</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/land.css" />
+	</head>
+
+	<body>
+		<div class="am-g am-text-center logo-top">
+			<div class="am-u-sm-12">
+				<img src="img/land-logo.png" width="72" height="72" />
+			</div>
+		</div>
+		<form action="" class="am-form yanzhengma" data-am-validator>
+			<fieldset>
+				<div class="am-u-sm-12 am-text-center am-margin-bottom-sm">
+					<input type="text" id="" placeholder="请输入收到的验证码" pattern="^\d{6}$" required/>
+				</div>
+				<div class="am-u-sm-12 am-text-center am-margin-bottom-sm">
+					<input type="password" id="doc-vld-pwd-1" placeholder="设置密码" minlength="6" maxlength="16" pattern="" required/>
+				</div>
+				<div class="am-u-sm-12 am-text-center am-margin-bottom-sm">
+					<input type="password" id="doc-vld-pwd-2" placeholder="确认密码" data-equal-to="#doc-vld-pwd-1" required/>
+				</div>
+			</fieldset>
+		</form>
+		<div class="am-text-center">
+			<div class="arrow-right-red">
+				<a href="land.html">
+					<img src="img/arrow-right-red.png" width="16" height="16" />
+				</a>
+			</div>
+			<a href="land.html">
+				<p class="am-margin-top-sm am-text-warning xiabu">下一步</p>
+			</a>
+		</div>
+
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		</script>
+	</body>
+
+</html>

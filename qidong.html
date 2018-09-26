@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper1.css" />
+	</head>
+	<style type="text/css">
+		html,
+		body {
+			position: relative;
+			height: 100%;
+		}
+		
+		body {
+			background: #eee;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.swiper-container {
+			width: 100%;
+			height: 100%;
+		}
+		
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			/* Center slide text vertically */
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+	</style>
+
+	<body>
+		<div class="swiper-container swiper-container-horizontal">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="shouye">
+						<div class="am-g am-text-center margintop1">
+							<img src="img/logo2_03.png" width="72" />
+						</div>
+						<div class="am-g am-text-center margintop2">
+							<span class="font_1">鲜书</span>
+						</div>
+						<div class="am-g am-text-center margintop3">
+							<span class="font_2">TouchMe</span>
+
+						</div>
+						<div class="am-g am-text-center margintop4">
+							<img src="img/zhiwen.png" width="60" />
+						</div>
+						<div class="am-g am-text-center am-padding-left-lg am-padding-right-lg margintop5">
+							<span class="font_3">“世上只有两种人：一种是还幸存的，一种是
+已迷失的。”—— 鲍勃·迪伦</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="shouye2">
+						<div class="am-g am-text-center margintop1">
+							<img src="img/logo2_03.png" width="72" />
+						</div>
+						<div class="am-g am-text-center margintop2">
+							<span class="font_1">鲜书</span>
+						</div>
+						<div class="am-g am-text-center margintop3">
+							<span class="font_2">TouchMe</span>
+
+						</div>
+						<div class="am-g am-text-center margintop4">
+							<img src="img/zhiwen.png" width="60" />
+						</div>
+						<div class="am-g am-text-center am-padding-left-lg am-padding-right-lg margintop5">
+							<span class="font_3">“世上只有两种人：一种是还幸存的，一种是
+已迷失的。”—— 鲍勃·迪伦</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+
+		</div>
+
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.4.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+			autoplay: 2800,
+			effect: 'fade',
+			onTouchEnd: function(swiper) {
+
+				TR = swiper.translate
+				if(TR < -500) {
+					swiper.setWrapperTranslate(TR);
+					setTimeout(function() {
+						location.href = "lastqidong.html";
+					}, 1000)
+
+				}
+
+			},
+			onSlideChangeEnd: function(swiper) {
+
+				setTimeout(function() {
+					location.href = "huanying.html";
+				}, 2500)
+
+			},
+
+			//			direction: '',
+			//			loop: true,
+			//
+			//		// 如果需要分页器
+			//		pagination: '.swiper-pagination',
+			////
+			//			// 如果需要前进后退按钮
+			//			nextButton: '.swiper-button-next',
+			//			prevButton: '.swiper-button-prev',
+			//
+			//			// 如果需要滚动条
+			//			scrollbar: '.swiper-scrollbar',
+		})
+	</script>
+
+</html>

@@ -1,0 +1,60 @@
+@charset "utf-8";
+body,
+html {
+	font-family: "微软雅黑";
+}
+
+a {
+	color: #000000;
+}
+
+
+/*头部*/
+
+.head {
+	padding: 20px 0;
+	border-bottom: 1px solid #dddddd;
+}
+
+.fonthead {
+	font-size: 20px;
+}
+
+.synopsis p {
+	margin: 0;
+	color: #666666;
+}
+
+.synopsis .am-u-sm-10 {
+	padding: 10px 0;
+}
+
+
+/**/
+
+.title img {
+	width: 100%;
+}
+
+.hui {
+	height: 40px;
+	width: 100%;
+	background-color: #ededed;
+}
+
+.books {
+	padding: 5% 0;
+	font-size: 16px;
+}
+
+.show span {
+	display: block;
+}
+
+.am-thumbnail {
+	border: 0!important;
+}
+
+.show img {
+	width: 100%;
+}

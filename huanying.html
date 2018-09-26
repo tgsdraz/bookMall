@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper2.css" />
+	</head>
+	<style type="text/css">html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}</style>
+
+	<body>
+		<div class="swiper-container swiper-container-horizontal">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="shouye">
+						<div class="shou_conta">
+							<div class="am-g">
+								<img src="img/pic111.jpg" width="100%" />
+							</div>
+							<div class="am-g">
+								<img src="img/pic222.jpg" width="100%" />
+
+							</div>
+						</div>
+
+						<div class="am-g am-padding-top-lg">
+							<span class="font_1">阅读</span><br />
+							<span class="font_2">别让电子产品模板化了你的人生</span><br />
+							<span class="font_3">精选品质书单</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="shouye2">
+						<div class="shou_conta">
+							<div class="am-g">
+								<img src="img/pic333.jpg" width="100%" />
+							</div>
+							<div class="am-g">
+								<img src="img/pic444.jpg" width="100%" />
+							</div>
+						</div>
+
+						<div class="am-g am-padding-top-lg">
+							<span class="font_1">鲜活</span><br />
+							<span class="font_2">让纸质书，鲜活在你的生活里</span><br />
+							<span class="font_3">正品纸质书专卖</span>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="shouye2">
+						<div class="shou_conta">
+							<div class="am-g">
+								<img src="img/pic555.jpg" width="100%" />
+							</div>
+						</div>
+
+						<div class="am-g am-padding-top-lg">
+							<span class="font_1">鲜书APP</span><br />
+							<span class="font_2">把你想要的生活，还给你</span><br />
+							<span class="font_3">life分享•作家访谈</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- 如果需要分页器 -->
+			<div class="swiper-pagination"></div>
+
+		</div>
+
+	</body>
+	<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.4.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+			//			direction: '',
+			//			loop: true,
+			//
+			//		// 如果需要分页器
+			pagination: '.swiper-pagination',
+			onTouchEnd: function(swiper) {
+
+					TR = swiper.translate
+					if(TR < -700) {
+						swiper.setWrapperTranslate(TR);
+						setTimeout(function () {
+							location.href = "lastqidong.html";
+						},1000)
+						
+					};
+
+				}
+				////
+				//			// 如果需要前进后退按钮
+				//			nextButton: '.swiper-button-next',
+				//			prevButton: '.swiper-button-prev',
+				//
+				//			// 如果需要滚动条
+				//			scrollbar: '.swiper-scrollbar',
+		})
+	</script>
+
+</html>

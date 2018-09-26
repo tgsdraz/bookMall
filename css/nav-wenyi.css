@@ -1,0 +1,204 @@
+@charset "utf-8";
+.text-28 {
+	font-size: 2.8rem;
+}
+
+.text-26 {
+	font-size: 2.6rem;
+}
+
+.text-24 {
+	font-size: 2.4rem;
+}
+
+.text-20 {
+	font-size: 2rem;
+}
+
+.text-18 {
+	font-size: 1.8rem;
+}
+
+.text-12 {
+	font-size: 1.2rem;
+}
+
+.text-14 {
+	font-size: 1.4rem;
+}
+
+.text-16 {
+	font-size: 1.6rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.red {
+	color: #cc0000;
+}
+
+.huise {
+	font-size: 1.6rem;
+	color: #999999;
+}
+
+a {
+	color: #333;
+}
+
+a:focus,
+a:hover {
+	color: #333;
+}
+
+
+/*header*/
+
+.xiaobiao {
+	color: #777777;
+	letter-spacing: 0.3rem;
+	margin-top: 0.1rem;
+	margin-bottom: 0;
+}
+
+.xiaoshuo {
+	color: #777777;
+	/*letter-spacing: 0.3rem;*/
+	margin-top: 0.1rem;
+	margin-bottom: 0;
+}
+
+.logo img {
+	width: 3.2rem;
+	height: 3.2rem;
+}
+
+.logo {
+	padding-top: 1rem;
+}
+
+.header input {
+	border: 0;
+	background-color: #ededed;
+	margin-top: 1.2rem;
+	border-radius: 6px;
+}
+
+.shousuo img {
+	width: 1.6rem;
+	height: 1.6rem;
+	top: 43%;
+	left: 22%;
+	position: absolute;
+}
+
+
+/*nav*/
+
+.tuijian a {
+	display: inline-block;
+	padding: 0 0.2rem 0.6rem 0.2rem;
+	border-bottom: 2px solid #cc0000;
+}
+
+.banner-footer {
+	margin: 1.3rem 0;
+	line-height: 1rem;
+}
+
+.banner-footer .am-u-sm-3 {
+	line-height: 1;
+	border-right: 1px solid #999999;
+}
+
+.banner-footer .am-u-sm-9 {
+	line-height: 1;
+}
+
+.line1 {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+
+/*商品*/
+
+.shoufa p {
+	margin-top: 0.6rem;
+	margin: 0;
+}
+
+.title-top {
+	padding-top: 1.3rem;
+}
+
+.shoufa .am-u-sm-6 {
+	margin-bottom: 1.6rem;
+}
+
+.shoufa {
+	margin-bottom: 0rem;
+}
+
+.line2 {
+	border: 2px solid #ededed;
+}
+
+
+/*人气推荐*/
+
+.renqi p {
+	margin-bottom: 1rem;
+}
+
+.renqi .text-14 {
+	color: #737373;
+}
+
+.renqi .price {
+	margin-top: 0rem;
+}
+
+.am-icon-arrow-circle-o-right {
+	font-size: 3rem;
+}
+
+.gengduo {
+	top: 35%;
+	left: 12%;
+	position: absolute;
+}
+
+.line3 {
+	border-bottom: 1px solid #cccccc;
+}
+
+.line4 {
+	border: 1px solid #ededed;
+}
+
+
+/*底部*/
+
+.dibu-nav {
+	background-color: #FFFFFF;
+	position: fixed;
+	width: 100%;
+	height: 6rem;
+	bottom: 0;
+	left: 0;
+}
+
+.nav-footer p {
+	margin-top: 0rem;
+	margin-bottom: 0;
+}
+
+.nav-footer {
+	margin-top: 0.3rem;
+}
+
+.kongbai {
+	height: 5rem;
+}

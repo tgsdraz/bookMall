@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/land.css" />
+	</head>
+
+	<body>
+		<div class="am-g am-text-center logo-top">
+			<div class="am-u-sm-12">
+				<img src="img/land-logo.png" width="72" height="72" />
+			</div>
+		</div>
+		<div class="am-g am-text-center am-margin-top-xl land-top">
+			<div class="am-u-sm-12 am-text-warning">登陆</div>
+		</div>
+		<form action="" class="am-form" data-am-validator>
+			<fieldset>
+				<div class="am-u-sm-12 am-text-center am-margin-top am-margin-bottom-sm">
+					<input type="text" id="doc-vld-528" class="js-pattern-mobile" placeholder="手机号" required/>
+				</div>
+				<div class="am-u-sm-12 am-text-center">
+					<input type="password" name="" id="" class="" placeholder="密码" minlength="6" maxlength="16" value="" />
+				</div>
+				<a href="index.html">
+					<div class="am-u-sm-12 am-text-center am-margin-top-xl">
+
+						<button class="am-btn am-btn-secondary am-btn-warning" type="submit">登陆</button>
+					</div>
+				</a>
+			</fieldset>
+		</form>
+
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/amazeui.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			if($.AMUI && $.AMUI.validator) {
+				$.AMUI.validator.patterns.mobile = /^1((3|5|8){1}\d{1}|70)\d{8}$/;
+			}
+		</script>
+	</body>
+
+</html>

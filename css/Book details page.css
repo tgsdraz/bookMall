@@ -1,0 +1,82 @@
+@charset "utf-8";
+body,
+html {
+	font-family: "微软雅黑";
+}
+
+a {
+	color: #000000;
+}
+
+
+/*头部*/
+
+.head {
+	padding: 20px 0;
+}
+
+
+/*背景图*/
+
+.banner img {
+	width: 100%;
+}
+
+
+/*文字*/
+
+.text {
+	padding: 30px 0;
+	background-color: #ededed;
+	font-size: 13px;
+}
+
+
+/*介绍*/
+
+.introduce .am-u-sm-2 {
+	color: #cc0000;
+}
+
+.introduce {
+	padding-top: 20px;
+}
+
+.introduce .name {
+	color: #777777;
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+.pic img {
+	width: 50%;
+	height: 50%;
+}
+
+.font13 {
+	font-size: 13px;
+	line-height: 1.5;
+	color: #a0a0a0;
+	margin-top: 15px;
+}
+
+.font14 {
+	font-size: 14px;
+	color: #a0a0a0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.thickline {
+	height: 7px;
+	width: 100%;
+	background-color: #ededed;
+}
+
+
+/*底部*/
+
+.bottom {
+	padding: 20px 0;
+	background-color: #ededed;
+}
